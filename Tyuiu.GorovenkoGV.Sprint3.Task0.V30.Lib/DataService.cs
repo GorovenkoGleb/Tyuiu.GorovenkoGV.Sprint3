@@ -15,7 +15,7 @@ namespace Tyuiu.GorovenkoGV.Sprint3.Task0.V30.Lib
             int i;
             for ( i = startValue; i <= stopValue; i++)
             {
-                multiplySeries = multiplySeries * (i / Math.Pow(Math.Sin(1), -10));
+                multiplySeries = multiplySeries + (i / Math.Pow(Math.Sin(1), -10));
             }
             return Math.Round(multiplySeries, 3);
         }
